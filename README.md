@@ -1,5 +1,6 @@
 # bbb-srf10
-The sensor is connected to pins 19 and 20 on the P9.
+The sensor is connected to pins 19 for SDC and 20 for SDA on the P9.  
+Ground is connected on pin 1 and the power connection is through pin 5 for +5V (VDD).  
 The i2c bus 2 is the one that is activated by default.
 You will need to install the i2c-tools and python-smbus packages
 using the package manager of your linux distro, e.g. sudo apt-get install PACKAGE-NAME
